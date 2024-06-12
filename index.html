@@ -4,6 +4,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <link href="assets/favicon.ico" rel="shortcut icon" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -13,30 +16,42 @@
     <section>
       <div class="container">
         <div class="content">
+<div class="content2">
           <h1>Демо-версия</h1>
-          <p>За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</p>
-          <div class="button">
-            <div></div>
-            <div><img src="./img/Frame 1141.png" alt=""></div>
+          <p class="text_content">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</p>
+          <div class="button_modal">
+            <div class="text">Попробовать бесплатно</div>
+            <div class="img_button"><img src="./img/Frame 1141.png" alt=""></div>
           </div>
+        </div>
         </div>
         <div class="img">
           <img src="./img/image 15.png" alt="img">
         </div>
       </div>
+      </div>
     </section>
     <div class="modal">
-        <div class="modal-header">
-          <span class="close">×</span>
-          <h2 class=""></h2>
-        </div>
-        <div class="modal-body">
-          <p></p>
-          <p>...</p>
-        </div>
-        <div class="modal-footer">
-          <h4></h4>
-        </div>
+      <div class="modal_header">
+        <span class="close">×</span>
+      </div>
+      <div class="modal_body">
+        <h2>Войти в систему</h2>
+        <form action="">
+          <input type="email" class='mail'>
+          <input type="password" class='password'>
+          <div>
+            <input type="checkbox">
+            <p>Запомнить пароль</p>
+          </div>
+          <p>Восстановить</p>
+        </form>
+        <button class="login_but">Войти</button>
+        <button class="singup_but">Зарегестрироваться</button>
+      </div>
+      <div class="modal_footer">
+        <h4></h4>
+      </div>
     </div>
   </main>
   <script src="script.js"></script>
