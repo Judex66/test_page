@@ -9,3 +9,4 @@ let more = document.querySelector('.button_modal');
         modal.style.display = 'none';
         modal.classList.remove('modal-animation');
     });
+

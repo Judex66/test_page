@@ -5,8 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
   <link href="assets/favicon.ico" rel="shortcut icon" />
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -16,14 +16,14 @@
     <section>
       <div class="container">
         <div class="content">
-<div class="content2">
-          <h1>Демо-версия</h1>
-          <p class="text_content">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</p>
-          <div class="button_modal">
-            <div class="text">Попробовать бесплатно</div>
-            <div class="img_button"><img src="./img/Frame 1141.png" alt=""></div>
+          <div class="content2">
+            <h1>Демо-версия</h1>
+            <p class="text_content">За 18 лет деятельности было реализовано более 500 крупных, а так же, не менее 2500 средних и малых проектов. Используя знания и накопленный опыт мы можем предложить</p>
+            <div class="button_modal">
+              <div class="text">Попробовать бесплатно</div>
+              <div class="img_button"><img src="./img/Frame 1141.png" alt=""></div>
+            </div>
           </div>
-        </div>
         </div>
         <div class="img">
           <img src="./img/image 15.png" alt="img">
@@ -33,21 +33,26 @@
     </section>
     <div class="modal">
       <div class="modal_header">
-        <span class="close">×</span>
+        <div class="close"><img src="./img/x.png" alt="close"></div>
       </div>
       <div class="modal_body">
         <h2>Войти в систему</h2>
-        <form action="">
-          <input type="email" class='mail'>
-          <input type="password" class='password'>
-          <div>
+        <form class="login" action="">
+          <input type="email" class='mail' placeholder="Email/Телефон">
+          <input type="password" class='password' pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" placeholder="Пароль">
+          <div class="checkbox">
             <input type="checkbox">
-            <p>Запомнить пароль</p>
+            <div class="remmber_block">
+              <p class="remember">Запомнить пароль</p>
+            </div>
           </div>
-          <p>Восстановить</p>
+          <p class="new_pass">Восстановить</p>
         </form>
-        <button class="login_but">Войти</button>
-        <button class="singup_but">Зарегестрироваться</button>
+
+        <div class="buttons">
+          <button class="login_but">Войти</button>
+          <button class="singup_but">Зарегестрироваться</button>
+        </div>
       </div>
       <div class="modal_footer">
         <h4></h4>
